@@ -106,7 +106,7 @@ Overall, this smart contract provides a way to track the various stages of a pha
     **package-lock.json**: This file is generated automatically and contains the exact version of each dependency used in the project.
 
     **Client**s: This Folder contains the client-side code, typically HTML, CSS, and JavaScript, can be organized into a client folder.
-* **Compile the smart contract** :  In the terminal, use the following command to compile the smart contract: `truffle compile` 
+* **Compile the smart contract** :  In the terminal, use the following command to compile the smart contract: `truffle compile` or `npx truffle compile`
 * **Deploy the smart contract** :
    
     * After Compile We Need To Deploy Your Smart Contract on Blockchain.In Our Case We are Using Ganache Which is personal blockchain for Ethereum development, used to test and develop Smart Contracts.
@@ -121,7 +121,7 @@ Overall, this smart contract provides a way to track the various stages of a pha
 
     * ![https://developers.rsk.co/assets/img/tutorials/truffle-test/image-04.png](https://developers.rsk.co/assets/img/tutorials/truffle-test/image-04.png)
   
-    * After Changing RCP address.Open terminal and run this cmd : `truffle migrate`.
+    * After Changing RCP address.Open terminal and run this cmd : `truffle migrate` or `npx truffle migrate`.
     * This Command Will deploye Smart Contract to Blockchain.
 
 ### Step 3.
